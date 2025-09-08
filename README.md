@@ -1,21 +1,20 @@
-# 👋 Hei, jeg er Johnny
+# 👋 Hei, jeg er Johnny Strømø
 
-Allsidig utvikler med bakgrunn i **Java, Rust og Python**.  
-Jeg liker å bygge systemer som er raske, robuste og gir reell verdi – enten det handler om analyseverktøy for syklister, optimalisering av dataflyt eller eksperimenter med semantisk teknologi.  
+Jeg er utvikler med bakgrunn fra **IT og ledelse**, med en forkjærlighet for å bygge ting som både går fort og faktisk blir brukt.  
+Fra **Rust og Python-kjerner med caching** til **Java fullstack-løsninger** og **dataanalyse i R** – jeg liker å kombinere teknisk nysgjerrighet med praktisk nytte.  
 
-Jeg har over ti års erfaring som selvstendig næringsdrivende, en bachelor i IT og ledelse med toppkarakter på oppgaven, og jeg utvikler kontinuerlig egne prosjekter på GitHub.  
-Som utvikler er jeg spesielt interessert i **Rust** og hvordan språket kan kombineres med andre teknologier for ytelse og pålitelighet.  
+Når jeg ikke koder, trener jeg landeveissykling 🚴‍♂️ og styrke 💪 – og det gjenspeiles i noen av prosjektene mine.
 
 ---
 
 ## 🚴 CycleGraph
-Et pågående sideprosjekt: et treningsverktøy for syklister som gir **nøyaktig wattmåling uten dyre pedaler**, ved å kombinere værdata, puls og treningslogg.  
+Mitt nyeste og pågående sideprosjekt: et treningsverktøy for syklister som gir **nøyaktig wattmåling uten dyre pedaler**, ved å kombinere værdata, puls og treningslogg.  
 CycleGraph gjør det mulig å sammenligne økter på rulle og ute på vei, og gir enkle, nyttige trendanalyser som faktisk hjelper deg å trene smartere.  
 
 **Nøkkelfunksjoner:**  
 - Presis effektberegning (CGS-Watt) med justering for vær og forhold  
 - CGS-score med trendpiler og badges  
-- Strava-integrasjon: importer økter og publiser resultater automatisk  
+- Strava-integrasjon (import + auto-publisering av resultater)  
 - Golden testing for stabile beregninger, SHACL for validering  
 
 **Teknologi:** Rust (PyO3), Python, Strava API, SHACL  
@@ -33,35 +32,47 @@ Et pågående sideprosjekt: analyseverktøy for syklister som kombinerer smart c
 
 👉 [Se repo](https://github.com/JohnnyBravo1983/CycleGraph)
 
-## 🎓 Bachelorprosjekt – Maplib Datalog Evaluator
-- Samarbeid med **Data Treehouse**, ferdigstilt juni 2024  
-- Bygget en **Rust-basert Datalog evaluator** med parsing til AST, oversettelse til SPARQL og caching (statisk og dynamisk)  
-- Resultat: **5–9x raskere spørringer** enn baseline  
-- Repo er privat av lisenshensyn, men jeg har det lokalt og deler kodebiter i eget demo-repo  
+## 🎓 Bachelorprosjekt – Rust-basert Datalog Evaluator
+Bacheloroppgave levert våren 2024 i samarbeid med **Data Treehouse**.  
+Jeg utviklet en **Rust-basert Datalog-evaluator** som parser regler til AST, oversetter dem til SPARQL, og bruker **statisk + delta-caching** for ytelsesforbedring.  
 
-Se Bachelor-prosjektet https://github.com/JohnnyBravo1983/Bachelor
+**Resultat:**  
+- 5–9× raskere spørringer sammenlignet med baseline  
+- Støtte for semi-naiv evaluering og golden testing  
+- Demonstrert på syntetiske datasett i et eget demo-repo
+
+**Teknologi:** Rust, SPARQL, RDF, caching-strategier, golden testing  
+
+👉 [Se demo-repo](https://github.com/JohnnyBravo1983/Bachelor)
 
 
-## ⚡ Rust + Python DataFrames (GitHub Actions)
-Eksempelprosjekt som viser integrasjon mellom Rust og Python ved bruk av Polars og PyO3.  
-Automatisert testing og bygging via GitHub Actions.  
 
-**Nøkkelfunksjoner:**  
-- Rust-funksjon som summerer numeriske kolonner i et DataFrame  
-- Eksponert som Python-modul via PyO3  
-- Testet med pytest  
-- CI/CD-pipeline med GitHub Actions  
+## ⚙️ GitAction – Rust/Python DataFrame-integrasjon med CI/CD
+Et lite demo-prosjekt som viser hvordan **Rust og Python kan integreres sømløst** via PyO3 og Polars, med full automatisert testing gjennom GitHub Actions.  
 
-👉 [Se repo her](https://github.com/JohnnyBravo1983/GitAction)
+**Funksjonalitet:**  
+- Rust-funksjoner eksponert som Python-modul  
+- Summering av numeriske kolonner i DataFrames (med null-sikkerhet)  
+- Pytest for Python-testing  
+- GitHub Actions for bygg, test og deploy  
 
-## 💻 OAP2000 (CRUD Desktop App)
-- Fullført desember 2023  
-- Desktop CRUD-applikasjon utviklet i **Java (Maven)**  
-- Viser håndtering av bygg, avhengigheter og enkel domenelogikk  
+**Teknologi:** Rust, PyO3, Polars, Python, Pytest, GitHub Actions  
+
+👉 [Se repo](https://github.com/JohnnyBravo1983/GitAction)
+
+
+## 💻 OAP2000 – Java Desktop CRUD-applikasjon
+En desktop-app utviklet som del av studier i 2023. Klassisk **CRUD-løsning med Swing-GUI og JDBC**, koblet mot MySQL/SQLite.  
+Prosjektet viser strukturering etter **MVC-prinsippet** og bruk av rapportering.
+
+**Funksjonalitet:**  
+- CRUD på produkter, kunder, ansatte og ordre  
+- Rapporter: økonomi, betaling, salg og lager  
+- Brukerstyring og innlogging (passordhashing via jBCrypt)
+
+**Teknologi:** Java 8, Swing, JDBC, Maven, JUnit 5  
 
 👉 [Se repo](https://github.com/JohnnyBravo1983/OAP2000)
-
----
 
 ## 🍕 PizzaDise Ordering (WebApp)
 - Studentprosjekt våren 2024  
@@ -71,10 +82,16 @@ Automatisert testing og bygging via GitHub Actions.
 👉 [Se repo](https://github.com/JohnnyBravo1983/pizzadise-ordering)
 
 ---
+## 📊 VIS3000V-1 – Dataanalyse og visualisering i R
+Et kursprosjekt fra 2024 med fokus på **analyse av salgsdata** og **visualisering** i R.  
+Prosjektet viser bruk av `dplyr` og `ggplot2` for å trekke ut innsikt fra et kombinert datasett.
 
-## 📊 Dataanalyse & visualisering
-Små prosjekter i R og Python for analyse og visualisering av datasett.  
-Eksempler: salgstrender per kategori, prisanalyse og distribusjon, samt visualisering i ggplot2 og matplotlib.  
+**Funksjonalitet:**  
+- Analyse av prisstatistikk og salg pr. produkt  
+- Rapportering av topp/bunn-produkter og kategorier  
+- Visualisering av trender og fordeling (barplots og linjediagrammer)
+
+**Teknologi:** R, dplyr, ggplot2, tidyr  
 
 👉 [Se repo](https://github.com/JohnnyBravo1983/VIS3000V-1)
 
