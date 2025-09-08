@@ -8,6 +8,52 @@ Som utvikler er jeg spesielt interessert i **Rust** og hvordan språket kan komb
 
 ---
 
+## 🚴 CycleGraph
+Et pågående sideprosjekt: et treningsverktøy for syklister som gir **nøyaktig wattmåling uten dyre pedaler**, ved å kombinere værdata, puls og treningslogg.  
+CycleGraph gjør det mulig å sammenligne økter på rulle og ute på vei, og gir enkle, nyttige trendanalyser som faktisk hjelper deg å trene smartere.  
+
+**Nøkkelfunksjoner:**  
+- Presis effektberegning (CGS-Watt) med justering for vær og forhold  
+- CGS-score med trendpiler og badges  
+- Strava-integrasjon: importer økter og publiser resultater automatisk  
+- Golden testing for stabile beregninger, SHACL for validering  
+
+**Teknologi:** Rust (PyO3), Python, Strava API, SHACL  
+
+👉 [Se repo](https://github.com/JohnnyBravo1983/CycleGraph)
+Et pågående sideprosjekt: analyseverktøy for syklister som kombinerer smart caching, Strava-integrasjon og avanserte treningsmetrikker.  
+
+**Nøkkelfunksjoner:**  
+- CGS-score og CGS-Watt  
+- Værdata  
+- Badges og trendarrows  
+- Publisering av resultater til Strava  
+
+**Teknologi:** Rust (PyO3), Python, golden testing, SHACL for validering  
+
+👉 [Se repo](https://github.com/JohnnyBravo1983/CycleGraph)
+
+## 🎓 Bachelorprosjekt – Maplib Datalog Evaluator
+- Samarbeid med **Data Treehouse**, ferdigstilt juni 2024  
+- Bygget en **Rust-basert Datalog evaluator** med parsing til AST, oversettelse til SPARQL og caching (statisk og dynamisk)  
+- Resultat: **5–9x raskere spørringer** enn baseline  
+- Repo er privat av lisenshensyn, men jeg har det lokalt og deler kodebiter i eget demo-repo  
+
+Se Bachelor-prosjektet https://github.com/JohnnyBravo1983/Bachelor
+
+
+## ⚡ Rust + Python DataFrames (GitHub Actions)
+Eksempelprosjekt som viser integrasjon mellom Rust og Python ved bruk av Polars og PyO3.  
+Automatisert testing og bygging via GitHub Actions.  
+
+**Nøkkelfunksjoner:**  
+- Rust-funksjon som summerer numeriske kolonner i et DataFrame  
+- Eksponert som Python-modul via PyO3  
+- Testet med pytest  
+- CI/CD-pipeline med GitHub Actions  
+
+👉 [Se repo her](https://github.com/JohnnyBravo1983/GitAction)
+
 ## 💻 OAP2000 (CRUD Desktop App)
 - Fullført desember 2023  
 - Desktop CRUD-applikasjon utviklet i **Java (Maven)**  
@@ -26,52 +72,12 @@ Som utvikler er jeg spesielt interessert i **Rust** og hvordan språket kan komb
 
 ---
 
-## 🎓 Bachelorprosjekt – Maplib Datalog Evaluator
-- Samarbeid med **Data Treehouse**, ferdigstilt juni 2024  
-- Bygget en **Rust-basert Datalog evaluator** med parsing til AST, oversettelse til SPARQL og caching (statisk og dynamisk)  
-- Resultat: **5–9x raskere spørringer** enn baseline  
-- Repo er privat av lisenshensyn, men jeg har det lokalt og deler kodebiter i eget demo-repo  
-
-👉 [Se snippets](https://github.com/JohnnyBravo1983/datalog-cache-demo)
-
----
-
-## ⚡ Rust + Python DataFrames (GitHub Actions)
-Eksempelprosjekt som viser integrasjon mellom Rust og Python ved bruk av **Polars og PyO3**.  
-Automatisert testing og bygging via **GitHub Actions**.  
-
-**Nøkkelfunksjoner:**  
-- Rust-funksjon som summerer numeriske kolonner i et DataFrame  
-- Eksponert som Python-modul via PyO3  
-- Testet med pytest  
-- CI/CD-pipeline med GitHub Actions  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/rust-dataframe-utils)
-
----
-
 ## 📊 Dataanalyse & visualisering
 Små prosjekter i R og Python for analyse og visualisering av datasett.  
 Eksempler: salgstrender per kategori, prisanalyse og distribusjon, samt visualisering i ggplot2 og matplotlib.  
 
-👉 [Se repo](https://github.com/JohnnyBravo1983/data-visualization)
+👉 [Se repo](https://github.com/JohnnyBravo1983/VIS3000V-1)
 
----
-
-## 🚴 CycleGraph
-Et pågående sideprosjekt: analyseverktøy for syklister som kombinerer smart caching, Strava-integrasjon og avanserte treningsmetrikker.  
-
-**Nøkkelfunksjoner:**  
-- CGS-score og CGS-Watt  
-- Værdata  
-- Badges og trendarrows  
-- Publisering av resultater til Strava  
-
-**Teknologi:** Rust (PyO3), Python, golden testing, SHACL for validering  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/CycleGraph)
-
----
 
 ## 📅 Milepæler
 - **Desember 2023** – Ferdig med OAP2000 (Java desktop-app)  
@@ -92,4 +98,20 @@ Et pågående sideprosjekt: analyseverktøy for syklister som kombinerer smart c
 ---
 
 💬 Ta gjerne kontakt hvis du vil diskutere kode, ytelsesoptimalisering eller samarbeidsmuligheter.  
-📫 [LinkedIn](https://www.linkedin.com/in/johnnystroemoe)  
+📫 [LinkedIn](https://www.linkedin.com/in/johnny-strømø-86b21881 
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
+---
+
