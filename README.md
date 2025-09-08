@@ -1,15 +1,22 @@
 # 👋 Hei, jeg er Johnny Strømø
 
-Jeg er utvikler med bakgrunn fra **IT og ledelse**, med en forkjærlighet for å bygge ting som både går fort og faktisk blir brukt.  
-Fra **Rust og Python-kjerner med caching** til **Java fullstack-løsninger** og **dataanalyse i R** – jeg liker å kombinere teknisk nysgjerrighet med praktisk nytte.  
+Jeg er utvikler med bakgrunn fra IT og ledelse, med en forkjærlighet for å bygge løsninger som både er raske og nyttige i praksis.  
+Fra Rust- og Python-kjerner med caching til Java fullstack og litt dataanalyse under studiene – jeg liker å kombinere teknisk nysgjerrighet med det som faktisk gir verdi.  
 
-Når jeg ikke koder, trener jeg landeveissykling 🚴‍♂️ og styrke 💪 – og det gjenspeiles i noen av prosjektene mine.
+Utenfor jobbprosjektene er jeg opptatt av balanse – jeg er familiefar, og finner energi i både landeveissykling 🚴‍♂️ og styrketrening 💪.  
 
 ---
 
 ## 🚴 CycleGraph
-Mitt nyeste og pågående sideprosjekt: et treningsverktøy for syklister som gir **nøyaktig wattmåling uten dyre pedaler**, ved å kombinere værdata, puls og treningslogg.  
-CycleGraph gjør det mulig å sammenligne økter på rulle og ute på vei, og gir enkle, nyttige trendanalyser som faktisk hjelper deg å trene smartere.  
+Et pågående sideprosjekt inspirert av egen erfaring som mosjonistsyklist.  
+Jeg har bl.a. syklet Horten–Bergen (2023), deltatt i **Vätternrundan** (2024) – verdens største mosjonsritt –  
+og i 2025 fullførte jeg **Hervéjsløbet 160 km** i Danmark med en plassering blant topp 40 %.  
+
+Målet mitt er å komme blant **topp 10 % i Hervéjsløbet 160 km innen 2028-sesongen**.  
+CycleGraph er verktøyet jeg utvikler for å hjelpe meg selv – og andre syklister – til å nå sine mål  
+og spore fremgang på en inspirerende og morsom måte.  
+
+Unike funksjoner inkluderer presis wattberegning uten dyre pedaler, integrasjon av værdata og intuitive trendanalyser.
 
 **Nøkkelfunksjoner:**  
 - Presis effektberegning (CGS-Watt) med justering for vær og forhold  
