@@ -20,17 +20,8 @@ CycleGraph gjør det mulig å sammenligne økter på rulle og ute på vei, og gi
 **Teknologi:** Rust (PyO3), Python, Strava API, SHACL  
 
 👉 [Se repo](https://github.com/JohnnyBravo1983/CycleGraph)
-Et pågående sideprosjekt: analyseverktøy for syklister som kombinerer smart caching, Strava-integrasjon og avanserte treningsmetrikker.  
 
-**Nøkkelfunksjoner:**  
-- CGS-score og CGS-Watt  
-- Værdata  
-- Badges og trendarrows  
-- Publisering av resultater til Strava  
-
-**Teknologi:** Rust (PyO3), Python, golden testing, SHACL for validering  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/CycleGraph)
+---
 
 ## 🎓 Bachelorprosjekt – Rust-basert Datalog Evaluator
 Bacheloroppgave levert våren 2024 i samarbeid med **Data Treehouse**.  
@@ -45,7 +36,7 @@ Jeg utviklet en **Rust-basert Datalog-evaluator** som parser regler til AST, ove
 
 👉 [Se demo-repo](https://github.com/JohnnyBravo1983/Bachelor)
 
-
+---
 
 ## ⚙️ GitAction – Rust/Python DataFrame-integrasjon med CI/CD
 Et lite demo-prosjekt som viser hvordan **Rust og Python kan integreres sømløst** via PyO3 og Polars, med full automatisert testing gjennom GitHub Actions.  
@@ -60,6 +51,22 @@ Et lite demo-prosjekt som viser hvordan **Rust og Python kan integreres sømløs
 
 👉 [Se repo](https://github.com/JohnnyBravo1983/GitAction)
 
+---
+
+## 🍕 PizzaDise – Fullstack webapp
+Et kursprosjekt fra 2023: en enkel **bestillingsapp for pizza** bygget som en fullstack-løsning.  
+Prosjektet viser hvordan frontend og backend kan settes opp med moderne verktøy i et komplett utviklingsløp.  
+
+**Funksjonalitet:**  
+- Registrering av brukere og bestillinger  
+- Vise meny og legge til/fjerne varer  
+- Enkel ordrehåndtering i backend  
+
+**Teknologi:** JavaScript, React, Node.js, Webpack  
+
+👉 [Se repo](https://github.com/JohnnyBravo1983/PizzaDise)
+
+---
 
 ## 💻 OAP2000 – Java Desktop CRUD-applikasjon
 En desktop-app utviklet som del av studier i 2023. Klassisk **CRUD-løsning med Swing-GUI og JDBC**, koblet mot MySQL/SQLite.  
@@ -74,14 +81,8 @@ Prosjektet viser strukturering etter **MVC-prinsippet** og bruk av rapportering.
 
 👉 [Se repo](https://github.com/JohnnyBravo1983/OAP2000)
 
-## 🍕 PizzaDise Ordering (WebApp)
-- Studentprosjekt våren 2024  
-- Frontend-app med **Webpack, Babel og Firebase**  
-- Strukturert som moderne webapp med hot reload og build pipeline  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/pizzadise-ordering)
-
 ---
+
 ## 📊 VIS3000V-1 – Dataanalyse og visualisering i R
 Et kursprosjekt fra 2024 med fokus på **analyse av salgsdata** og **visualisering** i R.  
 Prosjektet viser bruk av `dplyr` og `ggplot2` for å trekke ut innsikt fra et kombinert datasett.
@@ -94,33 +95,6 @@ Prosjektet viser bruk av `dplyr` og `ggplot2` for å trekke ut innsikt fra et ko
 **Teknologi:** R, dplyr, ggplot2, tidyr  
 
 👉 [Se repo](https://github.com/JohnnyBravo1983/VIS3000V-1)
-
-
-## 📅 Milepæler
-- **Desember 2023** – Ferdig med OAP2000 (Java desktop-app)  
-- **Våren 2024** – Ferdig med PizzaDise Ordering (webapp)  
-- **Juni 2024** – Fullførte bachelorprosjekt (Maplib Datalog) med karakter A  
-- **Mai 2025** – Fullførte bachelorgrad i IT og Ledelse  
-- **September 2025** – Arbeider videre med CycleGraph og porteføljeprosjekter på GitHub  
-
----
-
-## ⚡ Om meg
-- Erfaring som prosjektleder og Scrum Master  
-- Brenner for Rust, semantisk teknologi og ytelsesoptimalisering  
-- Liker å bygge systemer som kombinerer **teknisk dybde og praktisk nytte**  
-- Trener landeveissykling og styrke på fritiden 🚴‍♂️🏋️  
-- Bor i Norge med familie 👨‍👩‍👦  
-
----
-
-💬 Ta gjerne kontakt hvis du vil diskutere kode, ytelsesoptimalisering eller samarbeidsmuligheter.  
-📫 [LinkedIn](https://www.linkedin.com/in/johnny-strømø-86b21881 
-
-
-
----
-
 
 
 ---
