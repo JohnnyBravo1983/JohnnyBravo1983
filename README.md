@@ -20,6 +20,7 @@ CycleGraph beregner effekt (watt) fra vanlige Strava-turer ved hjelp av fysikk, 
 - **Strava Approved Partner:** importerer inntil 200 tidligere turer med ett klikk
 - **I produksjon:** brukere i 22 land, plattformen på norsk, engelsk, spansk og tagalog
 - **Rider Pro:** abonnement med Stripe, FTP-utvikling, mål og formkurve
+- **CycleGraph Coaching:** dashboard for trenere og klubber (Club, Coach Pro og Elite) med lagoversikt, mål for den enkelte rytter og støtte for innendørsturer
 
 **Stack:** Rust-fysikkmotor via PyO3 · Python/FastAPI på Fly.io · React/TypeScript på Vercel · Strava API · Stripe · GDPR-samtykkeflyt · Meta Pixel
 
@@ -36,6 +37,7 @@ Utviklet i samarbeid med **Data Treehouse**. En Datalog-evaluator i Rust som par
 - Originalkoden er privat etter avtale; demo-repoet viser konseptene på syntetiske data
 
 **Teknologi:** Rust · SPARQL · RDF · caching · golden testing
+
 👉 [Se demo-repo](https://github.com/JohnnyBravo1983/Bachelor)
 
 ---
