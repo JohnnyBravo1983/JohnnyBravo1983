@@ -1,115 +1,71 @@
-# 👋 Hei, jeg er Johnny Strømø
+# Hei, jeg er Johnny Strømø 👋
 
-Jeg er utvikler med bakgrunn fra IT og ledelse, med en forkjærlighet for å bygge løsninger som både er raske og nyttige i praksis.  
-Fra Rust- og Python-kjerner med caching til Java fullstack og litt dataanalyse under studiene – jeg liker å kombinere teknisk nysgjerrighet med det som faktisk gir verdi.  
+**Fullstack-utvikler og gründer av [CycleGraph](https://cyclegraph.app)**, en SaaS-plattform for syklister som er i produksjon med brukere i 22 land.
 
-Utenfor jobbprosjektene er jeg opptatt av balanse – jeg er familiefar, og finner energi i både landeveissykling 🚴‍♂️ og styrketrening 💪.  
+Jeg bygger produkter fra idé til drift: backend, frontend, betaling, integrasjoner og deploy. De siste to årene har jeg jobbet AI-assistert, med en strukturert arbeidsflyt der jeg selv eier arkitekturen, skriver oppgavespesifikasjoner, gjennomgår hver diff og verifiserer før noe går i produksjon. KI gjør meg raskere, men ansvaret for kvaliteten er mitt.
 
----
+BSc i IT og ledelse fra USN, og 10 år som selvstendig næringsdrivende (vedfyr.no, over 2000 kunder). Jeg vet hva det vil si å drive noe som skal fungere for ekte kunder.
 
-## 🚴 CycleGraph
-Et pågående sideprosjekt inspirert av egen erfaring som mosjonistsyklist.  
-Jeg har bl.a. syklet Horten–Bergen (2023), deltatt i **Vätternrundan** (2024) – verdens største mosjonsritt –  
-og i 2025 fullførte jeg **Hervéjsløbet 160 km** i Danmark med en plassering blant topp 40 %.  
-
-Målet mitt er å komme blant **topp 10 % i Hervéjsløbet 160 km innen 2028-sesongen**.  
-CycleGraph er verktøyet jeg utvikler for å hjelpe meg selv – og andre syklister – til å nå sine mål  
-og spore fremgang på en inspirerende og morsom måte.  
-
-Unike funksjoner inkluderer presis wattberegning uten dyre pedaler, integrasjon av værdata og intuitive trendanalyser.
-
-**Nøkkelfunksjoner:**  
-- Presis effektberegning (CGS-Watt) med justering for vær og forhold  
-- CGS-score med trendpiler og badges  
-- Strava-integrasjon (import + auto-publisering av resultater)  
-- Golden testing for stabile beregninger, SHACL for validering  
-
-**Teknologi:** Rust (PyO3), Python, Strava API, SHACL  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/CycleGraph)
+🌐 [cyclegraph.app](https://cyclegraph.app) · 💼 [LinkedIn](https://www.linkedin.com/in/johnny-str%C3%B8m%C3%B8-86b21881) · ✉️ jstromo83@gmail.com
 
 ---
 
-## 🎓 Bachelorprosjekt – Rust-basert Datalog Evaluator
-Bacheloroppgave levert våren 2024 i samarbeid med **Data Treehouse**.  
-Jeg utviklet en **Rust-basert Datalog-evaluator** som parser regler til AST, oversetter dem til SPARQL, og bruker **statisk + delta-caching** for ytelsesforbedring.  
+## 🚴 CycleGraph: watt uten wattmåler
 
-**Resultat:**  
-- 5–9× raskere spørringer sammenlignet med baseline  
-- Støtte for semi-naiv evaluering og golden testing  
-- Demonstrert på syntetiske datasett i et eget demo-repo
+> *See your watts. No power meter.*
 
-**Teknologi:** Rust, SPARQL, RDF, caching-strategier, golden testing  
+CycleGraph beregner effekt (watt) fra vanlige Strava-turer ved hjelp av fysikk, vær og terreng, slik at syklister uten wattmåler kan følge FTP og form over tid.
 
+- **Validert:** ±17 W median avvik mot over 800 turer med ekte wattmåler (716 testpunkter)
+- **Strava Approved Partner:** importerer inntil 200 tidligere turer med ett klikk
+- **I produksjon:** brukere i 22 land, plattformen på norsk, engelsk, spansk og tagalog
+- **Rider Pro:** abonnement med Stripe, FTP-utvikling, mål og formkurve
+
+**Stack:** Rust-fysikkmotor via PyO3 · Python/FastAPI på Fly.io · React/TypeScript på Vercel · Strava API · Stripe · GDPR-samtykkeflyt · Meta Pixel
+
+Kildekoden er privat fordi CycleGraph er et kommersielt produkt. Jeg viser gjerne kode og arkitektur i en gjennomgang. Design i samarbeid med Peter Conrad.
+
+---
+
+## 🎓 Bacheloroppgave: Rust-basert Datalog-evaluator
+
+Utviklet i samarbeid med **Data Treehouse**. En Datalog-evaluator i Rust som parser regler til AST, oversetter til SPARQL og bruker statisk og delta-caching over RDF-data (100M+ tripler).
+
+- 5 til 9 ganger raskere spørringer enn baseline
+- Semi-naiv evaluering og golden testing
+- Originalkoden er privat etter avtale; demo-repoet viser konseptene på syntetiske data
+
+**Teknologi:** Rust · SPARQL · RDF · caching · golden testing
 👉 [Se demo-repo](https://github.com/JohnnyBravo1983/Bachelor)
 
 ---
 
-## ⚙️ GitAction – Rust/Python DataFrame-integrasjon med CI/CD
-Et lite demo-prosjekt som viser hvordan **Rust og Python kan integreres sømløst** via PyO3 og Polars, med full automatisert testing gjennom GitHub Actions.  
+## 🧰 Teknologi
 
-**Funksjonalitet:**  
-- Rust-funksjoner eksponert som Python-modul  
-- Summering av numeriske kolonner i DataFrames (med null-sikkerhet)  
-- Pytest for Python-testing  
-- GitHub Actions for bygg, test og deploy  
-
-**Teknologi:** Rust, PyO3, Polars, Python, Pytest, GitHub Actions  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/GitAction)
+| Område | Verktøy |
+|---|---|
+| Backend | Python, FastAPI, Rust, PyO3, Java |
+| Frontend | React, TypeScript, JavaScript |
+| Drift | Fly.io, Vercel, GitHub Actions, Azure (AZ-900) |
+| Integrasjoner | Strava API, Stripe, OAuth, webhooks |
+| Data | Polars, SPARQL/RDF, SQL, R |
+| Arbeidsform | AI-assistert utvikling med Claude Code, spesifikasjon → diff-review → verifisering |
 
 ---
 
-## 🍕 PizzaDise – Fullstack webapp
-Et kursprosjekt fra 2023: en enkel **bestillingsapp for pizza** bygget som en fullstack-løsning.  
-Prosjektet viser hvordan frontend og backend kan settes opp med moderne verktøy i et komplett utviklingsløp.  
+## 📂 Andre prosjekter
 
-**Funksjonalitet:**  
-- Registrering av brukere og bestillinger  
-- Vise meny og legge til/fjerne varer  
-- Enkel ordrehåndtering i backend  
-
-**Teknologi:** JavaScript, React, Node.js, Webpack  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/PizzaDise)
+| Prosjekt | Hva | Teknologi |
+|---|---|---|
+| [GitAction](https://github.com/JohnnyBravo1983/GitAction) | Rust-funksjoner eksponert til Python, med CI i GitHub Actions | Rust, PyO3, Polars, Pytest |
+| [PizzaDise](https://github.com/JohnnyBravo1983/PizzaDise) | Fullstack bestillingsapp (studieprosjekt) | React, Node.js |
+| [OAP2000](https://github.com/JohnnyBravo1983/OAP2000) | Desktop CRUD-app etter MVC med rapporter og innlogging (studieprosjekt) | Java, Swing, JDBC, JUnit 5 |
+| [VIS3000V-1](https://github.com/JohnnyBravo1983/VIS3000V-1) | Analyse og visualisering av salgsdata (studieprosjekt) | R, dplyr, ggplot2 |
 
 ---
 
-## 💻 OAP2000 – Java Desktop CRUD-applikasjon
-En desktop-app utviklet som del av studier i 2023. Klassisk **CRUD-løsning med Swing-GUI og JDBC**, koblet mot MySQL/SQLite.  
-Prosjektet viser strukturering etter **MVC-prinsippet** og bruk av rapportering.
+## Utenfor kode
 
-**Funksjonalitet:**  
-- CRUD på produkter, kunder, ansatte og ordre  
-- Rapporter: økonomi, betaling, salg og lager  
-- Brukerstyring og innlogging (passordhashing via jBCrypt)
+Familiefar, landeveissyklist og glad i styrketrening. CycleGraph startet med mitt eget behov: Vätternrundan, Horten–Bergen og Hærvejsløbet 160 km, uten wattmåler.
 
-**Teknologi:** Java 8, Swing, JDBC, Maven, JUnit 5  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/OAP2000)
-
----
-
-## 📊 VIS3000V-1 – Dataanalyse og visualisering i R
-Et kursprosjekt fra 2024 med fokus på **analyse av salgsdata** og **visualisering** i R.  
-Prosjektet viser bruk av `dplyr` og `ggplot2` for å trekke ut innsikt fra et kombinert datasett.
-
-**Funksjonalitet:**  
-- Analyse av prisstatistikk og salg pr. produkt  
-- Rapportering av topp/bunn-produkter og kategorier  
-- Visualisering av trender og fordeling (barplots og linjediagrammer)
-
-**Teknologi:** R, dplyr, ggplot2, tidyr  
-
-👉 [Se repo](https://github.com/JohnnyBravo1983/VIS3000V-1)
-
-
----
-
-
-
----
-
-
----
-
+**Åpen for roller innen fullstack, backend, produktutvikling og AI-assistert utvikling.** Ta gjerne kontakt.
